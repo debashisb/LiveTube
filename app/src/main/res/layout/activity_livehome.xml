@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_livehome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.livetube.livetube.livehome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".50"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="159dp"
+                android:layout_height="161dp"
+                android:padding="15dp"
+                android:src="@drawable/livesearch"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="130dp"
+                android:padding="15dp"
+                android:src="@drawable/belive"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="164dp"
+                android:layout_height="150dp"
+                android:padding="15dp"
+                android:src="@drawable/recentchannel"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".50"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="161dp"
+                android:layout_height="158dp"
+                android:padding="15dp"
+                android:src="@drawable/livechannels"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/bookmarkchannel"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="15dp"
+                android:src="@drawable/settings"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
