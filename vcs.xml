@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/hareshkh/tic-tac-toe-android-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ram-on/SkyTube.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\DEBASHIS\Desktop\Training\GoogleAndroid" />
+    <option name="cloneParentDir" value="C:\Users\DEBASHIS\Desktop\" />
   </component>
 </application>
